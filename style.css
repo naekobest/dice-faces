@@ -1,0 +1,42 @@
+.face {
+	width: 256px;
+	height: 256px;
+	background: #e2e2e2;
+	display: inline-grid;
+	margin: 5px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	border-radius: 12px;
+}
+
+.dot {
+	background: lightpink;
+	border-radius: 50%;
+	width: 32px;
+	height: 32px;
+	place-self: center;
+}
+
+.top {
+	grid-row-start: 1;
+}
+
+.middle {
+	grid-row-start: 2;
+}
+
+.bottom {
+	grid-row-start: 3;
+}
+
+.left {
+	grid-column-start: 1;
+}
+
+.center {
+	grid-column-start: 2;
+}
+
+.right  {
+	grid-column-start: 3;
+}
